@@ -1,8 +1,7 @@
 const arr = [1, 2, 2, 3, 3, 3, 4, 4, 4, 4, 5, 5, 5, 5, 5]; // Given Array.
 
 const countNo = (arr) => {
-  // Create Fat Arrow Function.
-  const ObjCount = {}; // Create a const type empty Object.
+  const ObjCount = {};
   for (let i = 0; i < arr.length; i++) {
     if (ObjCount[arr[i]]) {
       ObjCount[arr[i]] += 1;
