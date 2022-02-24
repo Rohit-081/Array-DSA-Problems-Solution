@@ -1,4 +1,4 @@
-missingArray = [-1, 0, 3, 4, -10, -20, 1];
+const missingArray = [-1, 0, 3, 4, -10, -20, 1];
 
 function missingNumber(arr) {
   const mySet = new Set(arr);
